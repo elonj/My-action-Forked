@@ -64,7 +64,7 @@ jobs:
         find lede/bin/targets/ -name "*rootfs*img*" -delete	
         find lede/bin/targets/ -name "*vmlinuz" -delete
         find lede/bin/targets/ -name "*uefi*img*" -delete
-		
+
     - name: Upload entire bin directory
       uses: actions/upload-artifact@master
       if: always()
