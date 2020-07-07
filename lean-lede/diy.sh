@@ -33,4 +33,4 @@ sed -i 's/UTC/PST8PDT,M3.2.0,M11.1.0/g' package/base-files/files/bin/config_gene
 # Add some default settings
 
 #\cp -rf ../lede/zzz-default-settings package/lean/default-settings/files/zzz-default-settings
-curl -fsSL https://raw.githubusercontent.com/1orz/My-action/master/lean-lede/zzz-default-settings > package/lean/default-settings/files/zzz-default-settings
+#curl -fsSL https://raw.githubusercontent.com/1orz/My-action/master/lean-lede/zzz-default-settings > package/lean/default-settings/files/zzz-default-settings
